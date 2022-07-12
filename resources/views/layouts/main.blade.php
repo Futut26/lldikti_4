@@ -34,7 +34,7 @@
     @include('partials.topbar')
     @include('partials.navbar')
     @yield('content')
-    @include('partials.topbar')
+    @include('partials.footer')
 
 
     <!-- JavaScript Libraries -->
