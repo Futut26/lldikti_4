@@ -64,37 +64,46 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                    <div class="section-title position-relative pb-2 mb-5">
+                        <h2 class="mb-0">Selamat Datang di Lembaga Layanan Pendidikan Tinggi Wilayah 4</h2>
+                        <h3 class="mt-1 text-primary">Jawa Barat dan Banten</h3>
                     </div>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
-                        diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita
-                        duo justo et tempor eirmod magna dolore erat amet</p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                    <p class="mb-4">LLDIKTI mempunyai tugas membantu peningkatan mutu penyelenggaraan pendidikan
+                        <br>tinggi baik perguruan tinggi negeri maupun perguruan tinggi swasta di wilayah kerjanya.</p>
+                    <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <nav>
+                            <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                                <button class="nav-link text-uppercase active" id="nav-story-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
+                                    aria-selected="true">Visi</button>
+                                <button class="nav-link text-uppercase" id="nav-mission-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission"
+                                    aria-selected="false">Misi</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">
+                                <div class="row g-3">
+                                    <div class="col-sm-9">
+                                        <h5 class="mb-3">Terwujudnya perguruan tinggi yang bermutu melebihi standar nasional Pendidikan Tinggi</h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-mission" role="tabpanel"
+                                aria-labelledby="nav-mission-tab">
+                                <div class="row g-3">
+                                    <div class="col-sm-9">
+                                        <h5 class="mb-3">Membantu penyelenggaraan pendidikan tinggi yang bermutu melalui Bindalwas penatakelolaan, manajemen, organisasi dan kepemimpinan perguruan tinggi</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
-                        </div>
-                    </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A
-                        Quote</a>
+                    <a href="quote.html" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn"
+                        data-wow-delay="0.9s">Selengkapnya</a>
                 </div>
-                <div class="col-lg-5" style="min-height: 500px;">
+                <div class="col-lg-5" style="min-height: 100px;">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -104,7 +113,7 @@
                                 <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slide_4.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
@@ -116,8 +125,8 @@
 
 
     <!-- Features Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>
                 <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
