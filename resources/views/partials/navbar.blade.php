@@ -1,6 +1,6 @@
 <!-- Navbar & Carousel Start -->
 <div class="container-fluid position-relative p-0">
-    <nav class="navbar navbar-expand-lg  navbar-dark px-5 py-3 py-lg-0">
+    <nav class="navbar navbar-expand-lg  navbar-dark px-5 py-3 py-lg-0 sticky-top ">
         <a href="/" class="navbar-brand p-0">
             <h1 class="m-0"><img src="img/LLDIKTI-LOGOrev1-1.png" width="200" alt="LLDIKTI4"></h1>
         </a>
@@ -39,47 +39,12 @@
                     </div>
                 </div>
             </div>
-            <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
+            <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                 <i class="fa fa-search"></i>
-            </butaton>
+            </button>
             <a href="https://htmlcodex.com/startup-company-website-template"
                 class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
         </div>
     </nav>
 
-    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="img/slide1.jpg" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
-                            Wilayah 4
-                        </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="img/slide2.jpg" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
-                            Wilayah 4
-                        </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
 <!-- Navbar & Carousel End -->
