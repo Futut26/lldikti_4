@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AkuntabilitasController;
 use App\Http\Controllers\BerandaController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [BerandaController::class, 'index']);
+
+Route::get('/akuntabilitas', [AkuntabilitasController::class, 'index']);

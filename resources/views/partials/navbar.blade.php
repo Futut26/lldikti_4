@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <a href="service.html" class="nav-item nav-link">Info</a>
-                <a href="service.html" class="nav-item nav-link">Akuntabilitas</a>
+                <a href="/akuntabilitas" class="nav-item nav-link">Akuntabilitas</a>
                 <a href="service.html" class="nav-item nav-link">Berita</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
