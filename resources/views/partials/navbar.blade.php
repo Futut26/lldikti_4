@@ -9,16 +9,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="/" class="nav-item nav-link">Beranda</a>
+                <a href="/" class="nav-item nav-link {{ ($title === 'Beranda') ? 'active' : ''}} ">Beranda</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
+                    <a href="#" class="nav-link dropdown-toggle {{ ($title === 'Profil') ? 'active' : ''}} " data-bs-toggle="dropdown">Profil</a>
                     <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Profil LLDIKTI 4</a>
+                        <a href="blog.html" class="dropdown-item ">Profil LLDIKTI 4</a>
                         <a href="detail.html" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
                 <a href="service.html" class="nav-item nav-link">Info</a>
-                <a href="/akuntabilitas" class="nav-item nav-link">Akuntabilitas</a>
+                <a href="/akuntabilitas" class="nav-item nav-link {{ ($title === 'Akuntabilitas') ? 'active' : ''}}">Akuntabilitas</a>
                 <a href="service.html" class="nav-item nav-link">Berita</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
