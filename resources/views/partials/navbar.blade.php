@@ -13,8 +13,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle {{ ($title === 'Profil') ? 'active' : ''}} " data-bs-toggle="dropdown">Profil</a>
                     <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item ">Profil LLDIKTI 4</a>
-                        <a href="detail.html" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
+                        <a href="/profil" class="dropdown-item">Profil LLDIKTI 4</a>
+                        <a href="/profilKepala" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
                 <a href="service.html" class="nav-item nav-link">Info</a>
@@ -47,4 +47,5 @@
         </div>
     </nav>
 
+</div>
 <!-- Navbar & Carousel End -->
