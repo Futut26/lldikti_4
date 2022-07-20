@@ -1,8 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container-fluid mt-5 px-auto py-5 bg-dark">
-        <div class="box bg-dark w-75 text-dark py-5 mx-auto">
+    <div class="container-fluid p-0">
+        @include('partials.banner')
+        <div class="container w-100 mx-auto mt-5 p-5 bg-light" style="border-radius:20px;">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                   <div class="card" style="border-radius: 20px">

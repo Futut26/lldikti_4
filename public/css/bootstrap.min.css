@@ -8383,6 +8383,9 @@ fieldset:disabled .btn {
 .bg-dark {
     background-color: #091E3E !important
 }
+.bg-silver {
+    background-color: #fbfbfb !important;
+}
 
 .bg-body {
     background-color: #fff !important
