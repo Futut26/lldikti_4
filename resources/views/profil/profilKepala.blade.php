@@ -1,10 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container-fluid mt-5 px-auto py-5">
-        <div class="container w-100 mx-auto mt-5 bg-light text-center" style="border-radius:20px; padding: 80px">
-            <h1>Profil kepala LLDIKTI Wilayah 4</h1>
-        </div>
+    <div class="container-fluid p-0">
+        @include('partials.banner')
         <div class="container w-100 mx-auto mt-5 p-5 bg-light" style="border-radius:20px;">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">

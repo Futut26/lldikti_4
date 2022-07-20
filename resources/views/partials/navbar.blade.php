@@ -1,6 +1,7 @@
 <!-- Navbar & Carousel Start -->
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5 py-3 py-lg-0">
+    <nav class="navbar navbar-expand-lg  navbar-dark px-5 py-3 py-lg-0 sticky-top ">
         <a href="/" class="navbar-brand p-0">
             <h1 class="m-0"><img src="img/LLDIKTI-LOGOrev1-1.png" width="200" alt="LLDIKTI4"></h1>
         </a>
@@ -9,16 +10,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="/" class="nav-item nav-link">Beranda</a>
+                <a href="/" class="nav-item nav-link {{ ($title === 'Beranda') ? 'active' : ''}} ">Beranda</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil</a>
+                    <a href="#" class="nav-link dropdown-toggle {{ ($title === 'Profil') ? 'active' : ''}} " data-bs-toggle="dropdown">Profil</a>
                     <div class="dropdown-menu m-0">
                         <a href="/profil" class="dropdown-item">Profil LLDIKTI 4</a>
                         <a href="/profilKepala" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
                 <a href="service.html" class="nav-item nav-link">Info</a>
-                <a href="service.html" class="nav-item nav-link">Akuntabilitas</a>
+                <a href="/akuntabilitas" class="nav-item nav-link {{ ($title === 'Akuntabilitas') ? 'active' : ''}}">Akuntabilitas</a>
                 <a href="service.html" class="nav-item nav-link">Berita</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
@@ -39,11 +40,9 @@
                     </div>
                 </div>
             </div>
-            <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
+            <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                 <i class="fa fa-search"></i>
-            </butaton>
-            <a href="https://htmlcodex.com/startup-company-website-template"
-                class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
+            </button>
         </div>
     </nav>
 

@@ -499,6 +499,9 @@ progress {
         font-size: 1.5rem;
         line-height: 1.2
     }
+    .navbar-brand {
+        width: auto
+    }
   }
 
 @media (min-width: 1200px) {
@@ -8379,6 +8382,9 @@ fieldset:disabled .btn {
 
 .bg-dark {
     background-color: #091E3E !important
+}
+.bg-silver {
+    background-color: #fbfbfb !important;
 }
 
 .bg-body {
