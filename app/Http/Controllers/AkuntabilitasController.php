@@ -9,7 +9,8 @@ class AkuntabilitasController extends Controller
     public function index()
     {
         return view('akuntabilitas', [
-            'title' => 'Akuntabilitas'
+            'title' => 'Akuntabilitas',
+            'banner' => 'Akuntabilitas'
         ]);
     }
 }
