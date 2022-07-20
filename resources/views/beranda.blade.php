@@ -472,14 +472,13 @@
         </div>
     </div>
 
-    <div class="container py-5 ">
 
-        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-            <h2 class="mb-0">Gallery Kami</h2>
+    <div class="container ">
+        <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+            <h2 class="mb-0">Berita Kami</h2>
         </div>
-        
+        <a href="quote.html" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat Selengkapnya</a>
         <div class="tz-gallery">
-    
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <a class="lightbox" href="img/beranda/gallery/tumnail-1.jpg">
@@ -497,39 +496,86 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/beranda/galerycoast.jpg">
-                        <img src="img/beranda/galerycoast.jpg" alt="Coast">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-4.jpg">
+                        <img src="img/beranda/gallery/tumnail-4.jpg" alt="Coast">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="../images/rails.jpg">
-                        <img src="../images/rails.jpg" alt="Rails">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-5.jpg">
+                        <img src="img/beranda/gallery/tumnail-5.jpg" alt="Rails">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="../images/traffic.jpg">
-                        <img src="../images/traffic.jpg" alt="Traffic">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="../images/rocks.jpg">
-                        <img src="../images/rocks.jpg" alt="Rocks">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="../images/benches.jpg">
-                        <img src="../images/benches.jpg" alt="Benches">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="../images/sky.jpg">
-                        <img src="../images/sky.jpg" alt="Sky">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-6.jpg">
+                        <img src="img/beranda/gallery/tumnail-6.jpg" alt="Traffic">
                     </a>
                 </div>
             </div>
-    
         </div>
-    
+    </div>
+
+
+    <div class="container py-5 ">
+        <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+            <h2 class="mb-0">Video Kami</h2>
+        </div>
+        <a href="quote.html" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+            Selengkapnya
+        </a>
+        <div class="container-4">
+            <div class="main-video">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="title-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
+                    </h3>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <div class="vid">
+                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="title-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
+                    </h3>
+                </div>
+
+                <div class="vid">
+                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="title-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
+                    </h3>
+                </div>
+
+                <div class="vid">
+                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="title-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
+                    </h3>
+                </div>
+
+                <div class="vid">
+                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h3 class="title-2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
+                    </h3>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
     </div>
 
     <!-- Service Start -->
