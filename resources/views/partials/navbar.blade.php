@@ -1,6 +1,5 @@
 <!-- Navbar & Carousel Start -->
 <div class="container-fluid position-relative p-0">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5 py-3 py-lg-0">
     <nav class="navbar navbar-expand-lg  navbar-dark px-5 py-3 py-lg-0 sticky-top ">
         <a href="/" class="navbar-brand p-0">
             <h1 class="m-0"><img src="img/LLDIKTI-LOGOrev1-1.png" width="200" alt="LLDIKTI4"></h1>
@@ -14,7 +13,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle {{ ($title === 'Profil') ? 'active' : ''}} " data-bs-toggle="dropdown">Profil</a>
                     <div class="dropdown-menu m-0">
-                        <a href="/profil" class="dropdown-item">Profil LLDIKTI 4</a>
+                        <a href="/profil" class="dropdown-item ">Profil LLDIKTI 4</a>
                         <a href="/profilKepala" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
@@ -43,8 +42,11 @@
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                 <i class="fa fa-search"></i>
             </button>
+            <a href="https://htmlcodex.com/startup-company-website-template"
+                class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
         </div>
     </nav>
 
-</div>
 <!-- Navbar & Carousel End -->
+
+
