@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\AkuntabilitasController;
-use App\Http\Controllers\BerandaController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InfoController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\ProfilKepalaController;
+use App\Http\Controllers\AkuntabilitasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +22,7 @@ Route::get('/', [BerandaController::class, 'index']);
 
 Route::get('/profil', [ProfilController::class, 'index']);
 Route::get('/profilKepala', [ProfilKepalaController::class, 'index']);
+
+Route::get('/info', [InfoController::class, 'index']);
 
 Route::get('/akuntabilitas', [AkuntabilitasController::class, 'index']);
