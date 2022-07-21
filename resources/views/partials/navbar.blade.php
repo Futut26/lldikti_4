@@ -23,9 +23,9 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                     <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Layanan Online</a>
-                        <a href="detail.html" class="dropdown-item">Layanan kami</a>
-                        <a href="detail.html" class="dropdown-item">Cara Pengajuan Layanan</a>
+                        <a href="/layananOnline" class="dropdown-item">Layanan Online</a>
+                        <a href="/layananKami" class="dropdown-item">Layanan Kami</a>
+                        <a href="/caraPengajuanLayanan" class="dropdown-item">Cara Pengajuan Layanan</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">

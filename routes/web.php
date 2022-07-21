@@ -5,6 +5,9 @@ use App\Http\Controllers\BerandaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\ProfilKepalaController;
+use App\Http\Controllers\LayananOnlineController;
+use App\Http\Controllers\LayananKamiController;
+use App\Http\Controllers\PengajuanLayananController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +26,7 @@ Route::get('/profil', [ProfilController::class, 'index']);
 Route::get('/profilKepala', [ProfilKepalaController::class, 'index']);
 
 Route::get('/akuntabilitas', [AkuntabilitasController::class, 'index']);
+
+Route::get('/layananOnline', [LayananOnlineController::class, 'index']);
+Route::get('/layananKami', [LayananKamiController::class, 'index']);
+Route::get('/caraPengajuanLayanan', [PengajuanLayananController::class, 'index']);

@@ -2,10 +2,10 @@
 @section('content')
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 0px;">
                 <div class="row py-5">
                     <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h5 class="display-8 text-white animated zoomIn mb-3">LEMBAGA LAYANAN PENNDIDIKAN TINGGI WILAYAH 4</h5>
+                    <h5 class="display-8 text-white animated zoomIn mb-3">LEMBAGA LAYANAN PENDIDIKAN TINGGI WILAYAH 4</h5>
                     <br/>
                     <h1 class="display-4 text-white animated zoomIn mb-3">{{ $banner }}</h1>
                     </div>
@@ -17,8 +17,9 @@
     </div>
 
         <!-- Content Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5">
+                {{-- ROW 1 --}}
                 <div class="row g-5 mb-2">
                     <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
                         <div class="team-item bg-light rounded overflow-hidden shadow">
@@ -63,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-
+                {{-- ROW 2 --}}
                 <div class="row g-5 my-2">
                     <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
                         <div class="team-item bg-light rounded overflow-hidden shadow">
