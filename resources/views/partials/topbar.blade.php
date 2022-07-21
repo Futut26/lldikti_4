@@ -14,7 +14,6 @@
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>022-727-5630</small>
                     <small class="me-3 text-light"><a class="text-white" href="mailto:informasi@lldikti4.or.id"><i class="fa fa-envelope-open me-2"></i>informasi@lldikti4.or.id</small></a>
                     <small class="text-light"><a class="text-white" href="https://bit.ly/3qf80Ad"><i class="fab fa-whatsapp me-2"></i>WhatsApp</a> </small>
-                  
                 </div>
             </div>
         </div>

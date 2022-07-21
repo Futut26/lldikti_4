@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container-fluid p-0">
+    <div class="container-fluid bg-light p-0 pb-3">
         @include('partials.banner')
-        <div class="container w-100 mx-auto mt-5 p-5 bg-light" style="border-radius:20px;">
+        <div class="container w-100 mx-auto p-5 bg-light" style="border-radius:20px;">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                   <div class="card" style="border-radius: 20px">
@@ -15,7 +15,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card py-2" style="border-radius: 20px">
+                  <div class="card py-4" style="border-radius: 20px">
                     <div class="card-body">
                       <h5 class="card-title text-center mb-3">Profil Kepala LLDIKTI 4</h5>
                       <p class="card-text" style="text-align: justify; text-justify: inter-word;">
