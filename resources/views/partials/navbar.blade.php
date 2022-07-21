@@ -17,9 +17,9 @@
                         <a href="/profilKepala" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
-                <a href="service.html" class="nav-item nav-link">Info</a>
+                <a href="/info" class="nav-item nav-link">Info</a>
                 <a href="/akuntabilitas" class="nav-item nav-link {{ ($title === 'Akuntabilitas') ? 'active' : ''}}">Akuntabilitas</a>
-                <a href="service.html" class="nav-item nav-link">Berita</a>
+                <a href="/berita" class="nav-item nav-link">Berita</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                     <div class="dropdown-menu m-0">
