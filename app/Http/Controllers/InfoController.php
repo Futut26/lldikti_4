@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Info;
+use App\Models\Post;
 use App\Http\Requests\StoreInfoRequest;
 use App\Http\Requests\UpdateInfoRequest;
 
@@ -15,8 +15,15 @@ class InfoController extends Controller
      */
     public function index()
     {
+        $info = Post::latest();
+        if(request('search')){
+            $info->where('title', 'like', '%' . request('search') . '%');
+        }
+
+        
         return view('info', [
             'title' => 'Info',
+            'infos' => $info->paginate(6)->withQueryString(),
         ]);
     }
 
@@ -47,9 +54,14 @@ class InfoController extends Controller
      * @param  \App\Models\Info  $info
      * @return \Illuminate\Http\Response
      */
-    public function show(Info $info)
+    public function show(Post $info)
     {
-        //
+        
+        return view('infoPage',[
+            'title' => $info->title,
+            'info' => $info,
+            'infos' => Post::skip(1)->limit(4)->get()
+        ]);
     }
 
     /**
@@ -58,9 +70,9 @@ class InfoController extends Controller
      * @param  \App\Models\Info  $info
      * @return \Illuminate\Http\Response
      */
-    public function edit(Info $info)
+    public function edit(Post $info)
     {
-        //
+        
     }
 
     /**
@@ -70,7 +82,7 @@ class InfoController extends Controller
      * @param  \App\Models\Info  $info
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateInfoRequest $request, Info $info)
+    public function update(UpdateInfoRequest $request, Post $info)
     {
         //
     }
@@ -81,7 +93,7 @@ class InfoController extends Controller
      * @param  \App\Models\Info  $info
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Info $info)
+    public function destroy(Post $info)
     {
         //
     }

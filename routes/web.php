@@ -25,6 +25,7 @@ Route::get('/profil', [ProfilController::class, 'index']);
 Route::get('/profilKepala', [ProfilKepalaController::class, 'index']);
 
 Route::get('/info', [InfoController::class, 'index']);
+Route::get('/infoPage/{info:slug}', [InfoController::class, 'show']);
 
 Route::get('/berita', [BeritaController::class, 'index']);
 

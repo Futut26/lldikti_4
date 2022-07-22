@@ -2,7 +2,7 @@
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg  navbar-dark px-5 py-3 py-lg-0 sticky-top ">
         <a href="/" class="navbar-brand p-0">
-            <h1 class="m-0"><img src="img/LLDIKTI-LOGOrev1-1.png" width="200" alt="LLDIKTI4"></h1>
+            <h1 class="m-0"><img src="{{ asset('img/LLDIKTI-LOGOrev1-1.png') }}" width="200" alt="LLDIKTI4"></h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
