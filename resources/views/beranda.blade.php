@@ -9,7 +9,7 @@
                         <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
                             Wilayah 4
                         </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
+                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
                             Selengkapnya</a>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                         <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
                             Wilayah 4
                         </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
+                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
                             Selengkapnya</a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="quote.html" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn"
+                    <a href="#" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn"
                         data-wow-delay="0.9s">Baca Selengkapnya</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 100px;">
@@ -138,61 +138,28 @@
             <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
                 <h2 class="mb-0">Info Terbaru</h2>
             </div>
-            <a href="quote.html" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+            <a href="/info" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
                 Selengkapnya</a>
             <div class="row g-5">
+                @foreach ($infos as $info )
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item bg-light shadow overflow-hidden h-100">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid w-100" src="img/blog.jpg" alt="">
                             <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Beasiswa Mahasiswa</a>
+                                href="">Info</a>
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>{{ date('d F Y', strtotime($info->published_at)) }}</small>
                             </div>
-                            <p>Undangan Grand Launching Wira Usaha Merdeka Tahun 2022</p>
-                            <a class="text-uppercase" href="">Baca Selengkapnya <i
+                            <p>{{ $info->title }}</p>
+                            <a class="text-uppercase" href="/infoPage/{{ $info->slug }}">Baca Selengkapnya <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light shadow overflow-hidden h-100 ">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">INFORMASI LLDIKTI WILAYAH IV</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <p>Paparan Kegiatan Pendampingan JAD Wilayah Purwakarta, Subang, Sumedang, Cimahi, Dan Kabupaten
-                                Bandung Barat</p>
-                            <a class="text-uppercase" href="">Baca Selengkapnya <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light shadow overflow-hidden h-100 ">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Undangan & Pengumuman</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <p>Perpanjangan Waktu Pengisian Target dan Laporan Kinerja Triwulan II</p>
-                            <a class="text-uppercase" href="">Baca Selengkapnya <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
@@ -202,9 +169,10 @@
     <!-- Service Online Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title position-relative pb-3 mb-5" style="max-width: 600px;">
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
                 <h2 class="mb-0">Layanan Online</h2>
             </div>
+            <a href="/layananOnline" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat Selengkapnya</a>
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.3s">
                     <div
@@ -255,9 +223,10 @@
     <!-- Service Start -->
     <div class="container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title position-relative pb-3 mb-5" style="max-width: 600px;">
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
                 <h2 class="mb-0">Layanan Kami</h2>
             </div>
+            <a href="/layananKami" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat Selengkapnya</a>
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
@@ -435,9 +404,9 @@
     <div class="container-fluid py-3  wow fadeInUp" data-wow-delay="0.1s">
         <div class="container-fluid py-5">
             <div class="row g-5">
-                <div class="col-lg-12 wow zoomIn" data-wow-delay="0.3s">
+                <div class="col-lg-12 px-0 wow zoomIn" data-wow-delay="0.3s">
                     <div
-                        class="service h-auto bg-light rounded d-flex flex-column align-items-center justify-content-center ">
+                        class="service px-0 h-auto bg-light rounded d-flex flex-column align-items-center justify-content-center ">
                         <div class="container py-1">
                             <div class="row g-5 align-items-center justify-content-center ">
                                 <div class="col-lg-4">
@@ -448,7 +417,7 @@
                                     <p class="mb-4">
                                         Layanan LLDIKTI siap membantu anda
                                     </p>
-                                    <a href="quote.html" class="btn btn-primary btn-sm py-2 px-5 mt-3 wow zoomIn"
+                                    <a href="#" class="btn btn-primary btn-sm py-2 px-5 mt-3 wow zoomIn"
                                         data-wow-delay="0.9s">Kontak Kami</a>
                                 </div>
                                 <div class="col-lg-5" style="min-height: 100px;">
@@ -474,7 +443,8 @@
         <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
             <h2 class="mb-0">Berita Kami</h2>
         </div>
-        <a href="quote.html" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat Selengkapnya</a>
+        <a href="#" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+            Selengkapnya</a>
         <div class="tz-gallery">
             <div class="row">
                 <div class="col-sm-6 col-md-4">
@@ -516,137 +486,147 @@
         <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
             <h2 class="mb-0">Video Kami</h2>
         </div>
-        <a href="quote.html" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
-            Selengkapnya
-        </a>
+        <a href="https://www.youtube.com/c/LLDIKTIWILAYAH4/featured" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn"
+            data-wow-delay="0.9s">Lihat
+            Selengkapnya</a>
         <div class="container-4">
-            <div class="main-video">
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h3 class="title-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
-                    </h3>
-                </div>
+            <div class="main-video-container">
+                <iframe src="https://www.youtube.com/embed/3palWyc5vN0" allow="autoplay" loop controls
+                    class="main-video"></iframe>
             </div>
 
-            <div class="video-list">
-                <div class="vid">
-                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h3 class="title-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
-                    </h3>
+            <div class="video-list-container">
+
+                <div class="list active">
+                    <iframe src="https://www.youtube.com/embed/3palWyc5vN0" class="list-video"></iframe>
+                    <h3 class="list-title">Sambutan Dirjen DIKTI Rakerda LLDIKTI IV</h3>
                 </div>
 
-                <div class="vid">
-                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h3 class="title-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
-                    </h3>
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/yT9C6nsfLiI" class="list-video"></iframe>
+                    <h3 class="list-title">INGAT SELALU PESAN IBU! 3M...</h3>
                 </div>
 
-                <div class="vid">
-                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h3 class="title-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
-                    </h3>
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/E0k22bCm_dU" class="list-video"></iframe>
+                    <h3 class="list-title">Pemberian Piagam PTS 100 Rakerda 2019 LLDIKTI IV</h3>
                 </div>
 
-                <div class="vid">
-                    <iframe src="https://www.youtube.com/embed/z3Y5gJWmVVU" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h3 class="title-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, ex!
-                    </h3>
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/Dif4eqvMeoY" class="list-video"></iframe>
+                    <h3 class="list-title">proyek perubahan PKN II Angkatan XV Sekretaris LLDIKTI wilayah IV</h3>
                 </div>
 
-
-
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/iiPKDD5vD-Y" class="list-video"></iframe>
+                    <h3 class="list-title">TOT - Pendidikan Anti Korupsi</h3>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 
-    <!-- Service Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container-fluid py-5">
-            <div class="row g-5">
-                <div class="col-lg-12 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item h-auto bg-light rounded d-flex flex-column align-items-center ">
-                        <div class="position-relative mt-3 pb-3 mb-3 text-center" style="max-width: 600px;">
-                            <h2 class="mb-3">FAQ</h2>
-                            <h5 class="fw-bold text-primary"> Daftar Pertanyaan dan Jawaban yana Sering Ditanyakan</h5>
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+            <h1 class="mb-0">FAQ</h1>
+            <h5 class="fw-bold text-primary">Daftar Pertanyaan dan Jawaban yana Sering Ditanyakan</h5>
+        </div>
+        <div class="border rounded p-4">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Apa itu LLDIKTI ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Secara struktural LLDIKTI Wilayah IV Jawa Barat dan Banten merupakan unit
+                            pelaksana teknis Direktorat Jenderal Pendidikan Tinggi yang melaksanakan tugas Pembinaan,
+                            Pengendalian, dan Pengawasan (BINDALWAS) kepada PTS berdasarkan Peraturan Menteri Pendidikan
+                            dan Kebudayaan RI Nomor 1 Tahun 2013 tentang Organisasi dan Tata Kerja Koordinasi Perguruan
+                            Tinggi
+                            Swasta, dan saat ini berubah bentuk menjadi Lembaga Layanan Pendidikan Tinggi (LLDIKTI)
+                            berdasarkan
+                            Pemenristekdikti no.15 tahun 2018. LLDIKTI berfungsi membantu meningkatkan mutu penyelenggaraan
+                            Pendidikan Tinggi.
                         </div>
-                        <div class="col-lg-10 mb-5">
-                            <div class="accordion accordion-custom" id="accordionExample">
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed fw-semi-bold" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            How long will it take to get a new website?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et
-                                            magna
-                                            diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Layanan Yang Kami Sediakan
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li> Pelayanan Mutasi Mahasiswa </li>
+                                <li> Pelayanan Penilaian Angka Kredit Jabatan Akademik Dosen Asisten Ahli dan Lektor</li>
+                                <li> Pelayanan Rekomendasi Usulan Jabatan Akademik Dosen Lektor Kepala dan Profesor</li>
+                                <li> Pelayanan Pemberian Rekomendasi Beasiswa Dosen</li>
+                                <li> Pelayanan Rekomendasi Alih Kelola Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Rekomendasi Pendirian Perguruan Tinggi Swasta Baru</li>
+                                <li> Pelayanan Rekomendasi Pembukaan Program Studi Baru PTS</li>
+                                <li> Pelayanan Rekomendasi Perubahan Bentuk Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Rekomendasi Pembukaan Program Studi Luar Kampus Utama</li>
+                                <li> Pelayanan Rekomendasi Perubahan Lokasi Kampus Utama Perguruan Tinggi</li>
+                                <li> Pelayanan Rekomendasi Penggabungan / Penyatuan PTS</li>
+                                <li> Pelayanan Rekomendasi pencabutan izin Program Studi / PTS</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Perguruan Tinggi</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Program Studi</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Badan Penyelenggara Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Publikasi Informasi</li>
+                                <li> Pelayanan Pengaduan Pelayanan Publik</li>
+                                <li> Pelayanan Data dan Informasi</li>
+                                <li> Pelayanan Penerbitan Surat Pengantar Migrasi Data PT/Prodi pada PDDIKTI</li>
+                                <li> Pelayanan Penerbitan Surat Pengantar Pendataan PT/Prodi pada PDDIKTI</li>
+                                <li> Pelayanan Penerbitan SK Penyetaraan Pangkat (Inpassing) Dosen Bukan Pegawai Negeri
+                                    Sipil Untuk Golongan III</li>
+                                <li> Pelayanan Surat Usulan Penerbitan SK Penyetaraan Pangkat (Inpassing) Dosen Bukan
+                                    Pegawai Negeri Sipil Untuk Golongan IV</li>
+                                <li> Pelayanan Alih Jabatan/Tugas Pegawai Negeri Sipil Non Dosen Menjadi Dosen</li>
+                                <li> Pelayanan Mutasi Dosen Pegawai Negeri Sipil Dari PTN atau PTS di Luar LLDIKTI Wilayah
+                                    IV ke LLDIKTI Wilayah IV</li>
+                                <li> Pelayanan Surat Usulan Penerbitan SK Tugas Belajar Dosen Pegawai Negeri Sipil Dpk.</li>
+                                <li> Pelayanan Pembuatan SK Ijin Belajar Dosen Pegawai Negeri Sipil Dpk.</li>
+                                <li> Pelayanan Pembuatan Surat Usulan SK Kenaikan Pangkat/Golongan Dosen Pegawai Negeri
+                                    Sipil Dpk</li>
+                                <li> Pelayanan Kenaikan Pangkat/Golongan Dosen Tetap Yayasan Golongan III</li>
+                                <li> Pelayanan Kenaikan Pangkat/Golongan Dosen Tetap Yayasan Golongan IV</li>
+                                <li> Pelayanan Penerbitan Surat Rekomendasi Perpindahan Dosen Bukan Pegawai Negeri Sipil
+                                </li>
+                                <li> Pelayanan Verifikasi Ijazah bagi PTS yang Sudah Tidak Beroperasi atau Tutup</li>
+                                <li> Pelayanan Validasi Ijazah bagi PTS</li>
+                            </ol>
 
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed fw-semi-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Do you only create HTML websites?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                        diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed fw-semi-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
-                                        aria-controls="collapseFour">
-                                        Will my website be mobile-friendly?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                        diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Butuh Bantuan Kami ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Silahkan klik link dibawah ini: <br>
+                            <a href="https://www.lldikti4.id/kontak/">https://www.lldikti4.id/kontak/ </a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
 
 
@@ -670,210 +650,46 @@
                         Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+
+                <div class="testimonial-item bg-light my-4 h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/asep.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1">
+                                Asep Rohmandarjuara</h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Semoga makin memperbaiki kualitas pendidikan di wilayah IV khususnya dan Nasional umumnya
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+                <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png"
+                            style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1"> Fairlee surya</h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Pelayananya the Best ada loket Pelayananan Terpadunya,petugas loketnya.......dilayani sampai
+                        tuntas dan dicarikan solusinya...terimakasih LLDIKTI IV
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+                <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png"
+                            style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1"> Hendi Prawiraatmaja </h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Pelayanananya bagus responsip, terimakasih saya sangat terbantu sekali
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
-                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
-                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog Start -->
-
-
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5 mb-5">
-            <div class="bg-white">
-                <div class="owl-carousel vendor-carousel">
-                    <img src="img/vendor-1.jpg" alt="">
-                    <img src="img/vendor-2.jpg" alt="">
-                    <img src="img/vendor-3.jpg" alt="">
-                    <img src="img/vendor-4.jpg" alt="">
-                    <img src="img/vendor-5.jpg" alt="">
-                    <img src="img/vendor-6.jpg" alt="">
-                    <img src="img/vendor-7.jpg" alt="">
-                    <img src="img/vendor-8.jpg" alt="">
-                    <img src="img/vendor-9.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
 @endsection

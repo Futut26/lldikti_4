@@ -1,23 +1,23 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 pb-3">
         @include('partials.banner')
         <div class="container mx-auto mt-5 bg-light" style="border-radius:20px; padding: 20px">
-            <div class="row gap-3 justify-content-center">
-                <div class="col-3 rounded-3">
+            <div class="col d-flex gap-3 justify-content-center">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel.png" alt="">
                 </div>
-                <div class="col-3 rounded-3">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel2.png" alt="">
                 </div>
-                <div class="col-3 rounded-3">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel3.png" alt="">
                 </div>
             </div>
         </div>
         <div class="container w-100 mx-auto mt-5 p-5 bg-light" style="border-radius:20px;">
-            <h3 class="text-center">LLDIKTI Wilayah 4</h3>
+            <hr><h3 class="text-center">LLDIKTI Wilayah 4</h3><hr>
             <h5 class="card-title text-center">Sambutan</h5>
             <p class="card-text mx-4" style="text-align: justify; text-justify: inter-word;">
                 Kami ucapkan selamat datang di website LLDIKTI Wilayah IV Jawa Barat dan Banten, dalam
@@ -63,20 +63,20 @@
             </p>
         </div>
         <div class="container mx-auto mt-5 bg-light" style="border-radius:20px; padding: 20px">
-            <div class="row gap-3 justify-content-center">
-                <div class="col-3 rounded-3">
+            <div class="col d-flex gap-3 justify-content-center">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel.png" alt="">
                 </div>
-                <div class="col-3 rounded-3">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel2.png" alt="">
                 </div>
-                <div class="col-3 rounded-3">
+                <div class="col-4 rounded-3">
                     <img style="border-radius: 20px; width:100%;" src="img/profil/apel3.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="container w-100 mx-auto mt-5 p-5 bg-light" style="border-radius:20px;">
-            <h3 class="text-center">LLDIKTI Wilayah 4</h3>
+        <div class="container w-100 mx-auto mt-5 p-5 bg-light wow fadeInUp" style="border-radius:20px;">
+            <hr><h3 class="text-center">LLDIKTI Wilayah 4</h3><hr>
             <h5 class="card-title text-center">Sejarah</h5>
             <p class="card-text mx-4" style="text-align: justify; text-justify: inter-word;">
                 Sejarah perkembangan Kopertis dimulai dengan terbitnya Surat Keputusan Menteri Pendidikan dan Kebudayaan
@@ -109,6 +109,79 @@
                 menjadi LLDIKTI yang dipimpin oleh seorang Kepala. LLDIKTI berada di bawah dan bertanggung jawab kepada
                 Menteri Riset, Teknologi, dan Pendidikan Tinggi.
             </p>
+        </div>
+        <div class="container-fluid w-75 my-4 bg-light border" style="border-radius:20px;">
+            <div class="p-4 wow fadeInUp" data-wow-delay="0.6s">
+                <hr><h4 class="text-center">Fungsi & Tugas LLDIKTI Wilayah 4</h4><hr>
+                <br>
+                <p>Sebagaimana Peraturan Menteri Pendidikan dan Kebudayaan nomor 1 tahun 2013 jo nomor 42 tahun 2013 tentang
+                    Organisasi dan Tata Kerja (OTK) Kopertis. Kopertis mempunyai tugas merumuskan kebijakan dan melaksanakan
+                    pengawasan, pengendalian, dan pembinaan perguruan tinggi swasta di wilayah kerjanya berdasarkan
+                    kebijakan Direktur Jenderal Pendidikan Tinggi. Sesuai dengan OTK tersebut dalam melaksanakan tugas
+                    Kopertis menyelenggarakan fungsi :</p>
+                <br>
+                <nav>
+                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                        <button class="nav-link text-uppercase active" id="nav-story-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
+                            aria-selected="true">FUNGSI</button>
+                        <button class="nav-link text-uppercase" id="nav-mission-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission"
+                            aria-selected="false">TUGAS</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab">
+                        <div class="row g-3">
+                            <div class="col-sm-9">
+                                <ul>
+                                    <li>merumuskan kebijakan pengawasan, pengendalian, dan pembinaan perguruan tinggi swasta
+                                        di wilayah kerjanya berdasarkan kebijakan Direktur Jenderal;</li>
+                                    <li>melaksanakan koordinasi dalam rangka pengawasan, pengendalian, dan pembinaan
+                                        perguruan tinggi swasta di wilayah kerjanya;
+                                    </li>
+                                    <li>melaksanakan koordinasi pelaksanaan pemantauan dan evaluasi penyelenggaraan.
+                                        pendidikan, penelitian, dan pengabdian kepada masyarakat pada perguruan tinggi
+                                        swasta di wilayah kerjanya dan wilayah pengembangannya;
+                                    </li>
+                                    <li>melaksanakan koordinasi dalam rangka pembinaan ketenagaan perguruan tinggi swasta.
+                                    </li>
+                                    <li>melaksanakan kerja sama dalam rangka pengawasan, pengendalian, dan pembinaan
+                                        perguruan tinggi swasta di wilayah kerjanya;
+                                    </li>
+                                    <li>melaksanakan dan koordinasi pengernbangan perguruan tinggi swasta di wilayah
+                                        kerjanya.
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+                        <div class="row g-3">
+                            <div class="col-sm-9">
+                                <ul>
+                                    <li>pelaksanaan pemetaan mutu pendidikan tinggi di wilayah kerjanya;</li>
+                                    <li>pelaksanaan fasilitasi peningkatan mutu penyelenggaraan pendidikan tinggi di wilayah
+                                        kerjanya;</li>
+                                    <li>pelaksanaan fasilitasi peningkatan mutu pengelolaan perguruan tinggi di wilayah
+                                        kerjanya;</li>
+                                    <li>pelaksanaan fasilitasi kesiapan perguruan tinggi dalam penjaminan mutu eksternal di
+                                        wilayah kerjanya;</li>
+                                    <li>pelaksanaan evaluasi dan pelaporan pelaksanaan fasilitasi peningkatan mutu perguruan
+                                        tinggi di wilayah kerjanya;</li>
+                                    <li> pengelolaan data dan informasi di bidang mutu pendidikan tinggi di wilayah
+                                        kerjanya; dan</li>
+                                    <li>pelaksanaan administrasi LLDIKTI.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid w-75 my-4 bg-light border" style="border-radius:20px;">
+            
         </div>
     </div>
 @endsection
