@@ -6,10 +6,14 @@ use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\LayananKamiController;
+use App\Http\Controllers\ProdukHukumController;
+use App\Http\Controllers\SuratEdaranController;
 use App\Http\Controllers\ProfilKepalaController;
 use App\Http\Controllers\AkuntabilitasController;
 use App\Http\Controllers\LayananOnlineController;
+use App\Http\Controllers\Undang_undangController;
 use App\Http\Controllers\PengajuanLayananController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +41,9 @@ Route::get('/akuntabilitas', [AkuntabilitasController::class, 'index']);
 Route::get('/layananOnline', [LayananOnlineController::class, 'index']);
 Route::get('/layananKami', [LayananKamiController::class, 'index']);
 Route::get('/caraPengajuanLayanan', [PengajuanLayananController::class, 'index']);
+
+Route::get('/produkHukum',[ProdukHukumController::class, 'index']);
+
+Route::get('/suratEdaran',[SuratEdaranController::class, 'index']);
+
+Route::get('/undang_undang',[Undang_undangController::class, 'index']);

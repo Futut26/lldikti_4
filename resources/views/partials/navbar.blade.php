@@ -36,11 +36,11 @@
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                          <li><a class="dropdown-item" href="#">Standar Pelayanan Publik</a></li>
                          <li class="dropdown dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produk Hukum</a>
+                            <a class="dropdown-item dropdown-toggle" href="/produkHukum" id="multilevelDropdownMenu1"
+                                data-bs-toggle="" aria-haspopup="false" aria-expanded="false">Produk Hukum</a>
                             <ul class="dropdown-menu mx-10" aria-labelledby="multilevelDropdownMenu1">
-                                    <li><a class="dropdown-item" href="#">Surat Edaran</a></li>
-                                    <li><a class="dropdown-item" href="#">Undang - Undang</a></li>
+                                    <li><a class="dropdown-item" href="/suratEdaran">Surat Edaran</a></li>
+                                    <li><a class="dropdown-item" href="/undang_undang">Undang - Undang</a></li>
                                     <li><a class="dropdown-item" href="#">Peraturan Ristekdikti</a></li>
                                     <li><a class="dropdown-item" href="#">Peraturan Presiden</a></li>
                                     <li><a class="dropdown-item" href="#">Peraturan Menteri</a></li>
@@ -70,11 +70,13 @@
         </div>
     </nav>
 
+    
+
     <!-- Navbar & Carousel End -->
     <script>
         let dropdowns = document.querySelectorAll('.dropdown-toggle')
         dropdowns.forEach((dd) => {
-            dd.addEventListener('click', function(e) {
+            dd.addEventListener('mouseover', function(e) {
                 var el = this.nextElementSibling
                 el.style.display = el.style.display === 'block' ? 'none' : 'block'
             })

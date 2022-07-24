@@ -103,8 +103,8 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn"
-                        data-wow-delay="0.9s">Baca Selengkapnya</a>
+                    <a href="#" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Baca
+                        Selengkapnya</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 100px;">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -141,24 +141,25 @@
             <a href="/info" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
                 Selengkapnya</a>
             <div class="row g-5">
-                @foreach ($infos as $info )
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light shadow overflow-hidden h-100">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Info</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>{{ date('d F Y', strtotime($info->published_at)) }}</small>
+                @foreach ($infos as $info)
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="blog-item bg-light shadow overflow-hidden h-100">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/blog.jpg" alt="">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                    href="">Info</a>
                             </div>
-                            <p>{{ $info->title }}</p>
-                            <a class="text-uppercase" href="/infoPage/{{ $info->slug }}">Baca Selengkapnya <i
-                                    class="bi bi-arrow-right"></i></a>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+                                    <small><i
+                                            class="far fa-calendar-alt text-primary me-2"></i>{{ date('d F Y', strtotime($info->published_at)) }}</small>
+                                </div>
+                                <p>{{ $info->title }}</p>
+                                <a class="text-uppercase" href="/infoPage/{{ $info->slug }}">Baca Selengkapnya <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endforeach
             </div>
         </div>
@@ -172,7 +173,8 @@
             <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
                 <h2 class="mb-0">Layanan Online</h2>
             </div>
-            <a href="/layananOnline" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat Selengkapnya</a>
+            <a href="/layananOnline" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat
+                Selengkapnya</a>
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.3s">
                     <div
@@ -226,7 +228,8 @@
             <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
                 <h2 class="mb-0">Layanan Kami</h2>
             </div>
-            <a href="/layananKami" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat Selengkapnya</a>
+            <a href="/layananKami" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat
+                Selengkapnya</a>
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
@@ -437,11 +440,102 @@
             </div>
         </div>
     </div>
+    
+    <div class="container  py-5 ">
+        <div class="container py-5 ">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h2 class="mb-0">Sebaran Perguruan Tinggi</h2>
+                
+            </div>
+            <div class="row g-2 justify-content-center align-items-lg-center">
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-university text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Universitas</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">98</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Institut</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">19</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Sekolah Tinggi</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">202</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-university text-white""></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Akademi</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">84</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <text-primary class="fa fa-graduation-cap text-primary"></fa-solid>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Politeknik</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">41</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Akademi Komunitas</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">5</h1>
+                        </div>
+                    </div>
+                </div>
+            
+ 
+            </div>
+        </div>
+    </div>
 
 
-    <div class="container ">
+    <div class="container py-5 ">
         <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
-            <h2 class="mb-0">Berita Kami</h2>
+            <h2 class="mb-0">Gallery Kami</h2>
         </div>
         <a href="#" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
             Selengkapnya</a>
@@ -473,7 +567,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="img/beranda/gallery/tumnail-6.jpg">
+                    <a class="lightbox" style="max-width: 80%;" href="img/beranda/gallery/tumnail-6.jpg">
                         <img src="img/beranda/gallery/tumnail-6.jpg" alt="Traffic">
                     </a>
                 </div>
@@ -634,8 +728,8 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+                <h3 class="fw-bold text-uppercase">Testimonial</h3>
+                
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
@@ -665,8 +759,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/beranda/hendra.png"
-                            style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
                             <h4 class="text-primary mb-1"> Fairlee surya</h4>
                         </div>
@@ -678,8 +771,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/beranda/hendra.png"
-                            style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
                             <h4 class="text-primary mb-1"> Hendi Prawiraatmaja </h4>
                         </div>
@@ -690,6 +782,7 @@
                 </div>
             </div>
         </div>
+ 
     </div>
     <!-- Testimonial End -->
 @endsection
