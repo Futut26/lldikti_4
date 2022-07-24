@@ -41,11 +41,11 @@
                             <ul class="dropdown-menu mx-10" aria-labelledby="multilevelDropdownMenu1">
                                     <li><a class="dropdown-item" href="/suratEdaran">Surat Edaran</a></li>
                                     <li><a class="dropdown-item" href="/undang_undang">Undang - Undang</a></li>
-                                    <li><a class="dropdown-item" href="#">Peraturan Ristekdikti</a></li>
-                                    <li><a class="dropdown-item" href="#">Peraturan Presiden</a></li>
-                                    <li><a class="dropdown-item" href="#">Peraturan Menteri</a></li>
-                                    <li><a class="dropdown-item" href="#">Peraturan Pemerintah</a></li>
-                                    <li><a class="dropdown-item" href="#">SK DIRJEN</a></li>
+                                    <li><a class="dropdown-item" href="/peraturan_ristekdikti">Peraturan Ristekdikti</a></li>
+                                    <li><a class="dropdown-item" href="/peraturan_presiden">Peraturan Presiden</a></li>
+                                    <li><a class="dropdown-item" href="/peraturan_menteri">Peraturan Menteri</a></li>
+                                    <li><a class="dropdown-item" href="/peraturan_pemerintah">Peraturan Pemerintah</a></li>
+                                    <li><a class="dropdown-item" href="/sk_dirjen">SK DIRJEN</a></li>
                             </ul>
                         </li>
                          <li><a class="dropdown-item" href="#">PPID</a></li>
