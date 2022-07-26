@@ -14,14 +14,14 @@
                     <a href="#" class="nav-link dropdown-toggle {{ $title === 'Profil' ? 'active' : '' }} "
                         data-bs-toggle="dropdown">Profil</a>
                     <div class="dropdown-menu m-0">
-                        <a href="/profil" class="dropdown-item ">Profil LLDIKTI 4</a>
+                        <a href="/profil" class="dropdown-item">Profil LLDIKTI 4</a>
                         <a href="/profilKepala" class="dropdown-item">Profil Kepala LLDIKTI 4</a>
                     </div>
                 </div>
                 <a href="/info" class="nav-item nav-link">Info</a>
                 <a href="/akuntabilitas"
                     class="nav-item nav-link {{ $title === 'Akuntabilitas' ? 'active' : '' }}">Akuntabilitas</a>
-                <a href="/berita" class="nav-item nav-link">Berita</a>
+                <a href="/berita" class="nav-item nav-link {{ $title === 'Berita' ? 'active' : '' }}">Berita</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                     <div class="dropdown-menu m-0">
@@ -34,8 +34,8 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-bs-toggle="dropdown" aria-expanded="false"> Infomasi Publik </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                         <li><a class="dropdown-item" href="/spp">Standar Pelayanan Publik</a></li>
-                         <li class="dropdown dropend">
+                        <li><a class="dropdown-item" href="/spp">Standar Pelayanan Publik</a></li>
+                        <li class="dropdown dropend">
                             <a class="dropdown-item dropdown-toggle" href="/produkHukum" id="multilevelDropdownMenu1"
                                 data-bs-toggle="" aria-haspopup="false" aria-expanded="false">Produk Hukum</a>
                             <ul class="dropdown-menu mx-10" aria-labelledby="multilevelDropdownMenu1">
@@ -48,24 +48,25 @@
                                     <li><a class="dropdown-item" href="/sk_dirjen">SK DIRJEN</a></li>
                             </ul>
                         </li>
-                         <li><a class="dropdown-item" href="#">PPID</a></li>
-                         <li><a class="dropdown-item" href="#">Prosedur Operasional Standar</a></li>
-                         <li><a class="dropdown-item" href="#">Peta Proses Bisnis LLDIKTI Wilayah IV</a></li>
-                         <li><a class="dropdown-item" href="#">Buku Panduan / Pedoman</a></li>
-                         <li><a class="dropdown-item" href="#">Materi Kegiatan</a></li>
-                         <li><a class="dropdown-item" href="#">Buletin LLDIKTI Wilayah IV</a></li>
+
+                         <li><a class="dropdown-item" href="/PPID">PPID</a></li>
+                         <li><a class="dropdown-item" href="/prosedurOperasionalStandar">Prosedur Operasional Standar</a></li>
+                         <li><a class="dropdown-item" href="/petaProsesBisnis">Peta Proses Bisnis LLDIKTI Wilayah IV</a></li>
+                         <li><a class="dropdown-item" href="/bukuPanduanPedoman">Buku Panduan / Pedoman</a></li>
+                         <li><a class="dropdown-item" href="/materi_kegiatan">Materi Kegiatan</a></li>
+                         <li><a class="dropdown-item" href="/buletin">Buletin LLDIKTI Wilayah IV</a></li>
                          <li><a class="dropdown-item" href="#">Buku Direktori PTS LLDIKTI IV</a></li>
-                         <li><a class="dropdown-item" href="#">Buku Statistik Perguruan Tinggi</a></li>
-                         <li><a class="dropdown-item" href="#">Agenda Kegiatan</a></li>
-                         <li><a class="dropdown-item" href="#">Galeri</a></li>
-                         
+                         <li><a class="dropdown-item" href="https://pddikti.kemdikbud.go.id/publikasi">Buku Statistik Perguruan Tinggi</a></li>
+                         <li><a class="dropdown-item" href="/agenda_kami">Agenda Kegiatan</a></li>
+                         <li><a class="dropdown-item" href="/galeri">Galeri</a></li>
+                        
                     </ul>
                 </div>
             </div>
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                 <i class="fa fa-search"></i>
             </button>
-            <a href="https://htmlcodex.com/startup-company-website-template"
+            <a href=""
                 class="btn btn-primary py-2 px-4 ms-3">Kontak & Pengaduan</a>
         </div>
     </nav>
