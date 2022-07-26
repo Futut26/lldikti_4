@@ -18,8 +18,8 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="text-center">
-                        <img width='80%' src="img\informasi_publik\Maklumat-Pakta-Integritas-scaled.jpg" class="img-thumbnail"
-                            alt="...">
+                        <img width='80%' src="img\informasi_publik\Maklumat-Pakta-Integritas-scaled.jpg"
+                            class="img-thumbnail" alt="...">
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -45,18 +45,23 @@
                         Download Dokumen Standar Pelayanan Publik LLDIKTI Wilayah IV:
                     </p>
                 </div>
-                <div class="col-lg-10 m-auto display-block">
-         
-                    <div id="addpdf-responsive" class="custom1">
-                        <div class="custom2">
-                           <iframe src="pdf\2a.-SK-Standar-Pelayanan-Publik-Lampiran-Final-2.pdf"></iframe>
+                
+                    <div id="Iframe-Master-CC-and-Rs"
+                        class="set-margin set-padding set-border set-box-shadow center-block-horiz">
+                        <div class="responsive-wrapper responsive-wrapper-wxh-572x612"
+                            style="-webkit-overflow-scrolling: touch; overflow: auto;">
+                            <iframe src="pdf\2a.-SK-Standar-Pelayanan-Publik-Lampiran-Final-2.pdf">
+                                <p style="font-size: 110%;"><em><strong>ERROR: </strong>
+                                        An &#105;frame should be displayed here but your browser version does not support
+                                        &#105;frames. </em>Please update your browser to its most recent version and try
+                                    again.
+                                </p>
+                            </iframe>
                         </div>
-                      </div>
-                       
-                </div>
+                    </div>
+
+              
             </div>
         </div>
     </div>
 @endsection
-
-
