@@ -4,9 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SppController;
 use App\Http\Controllers\InfoController;
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\BerandaController;
+use App\Http\Controllers\BuletinController;
 use App\Http\Controllers\Sk_DirjenController;
+use App\Http\Controllers\Agenda_KamiController;
 use App\Http\Controllers\LayananKamiController;
 use App\Http\Controllers\ProdukHukumController;
 use App\Http\Controllers\SuratEdaranController;
@@ -70,10 +73,11 @@ Route::get('/sk_dirjen',[Sk_DirjenController::class, 'index']);
 
 Route::get('/spp',[SppController::class, 'index']);
 
+Route::get('/galeri',[GaleriController::class, 'index']);
 
+Route::get('/agenda_kami',[Agenda_KamiController::class, 'index']);
 
-
-
+Route::get('/buletin',[BuletinController::class, 'index']);
 
 
 

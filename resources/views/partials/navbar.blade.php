@@ -52,12 +52,12 @@
                          <li><a class="dropdown-item" href="#">Prosedur Operasional Standar</a></li>
                          <li><a class="dropdown-item" href="#">Peta Proses Bisnis LLDIKTI Wilayah IV</a></li>
                          <li><a class="dropdown-item" href="#">Buku Panduan / Pedoman</a></li>
-                         <li><a class="dropdown-item" href="#">Materi Kegiatan</a></li>
-                         <li><a class="dropdown-item" href="#">Buletin LLDIKTI Wilayah IV</a></li>
+                         <li><a class="dropdown-item" href="/materi_kegiatan">Materi Kegiatan</a></li>
+                         <li><a class="dropdown-item" href="/buletin">Buletin LLDIKTI Wilayah IV</a></li>
                          <li><a class="dropdown-item" href="#">Buku Direktori PTS LLDIKTI IV</a></li>
-                         <li><a class="dropdown-item" href="#">Buku Statistik Perguruan Tinggi</a></li>
-                         <li><a class="dropdown-item" href="#">Agenda Kegiatan</a></li>
-                         <li><a class="dropdown-item" href="#">Galeri</a></li>
+                         <li><a class="dropdown-item" href="https://pddikti.kemdikbud.go.id/publikasi">Buku Statistik Perguruan Tinggi</a></li>
+                         <li><a class="dropdown-item" href="/agenda_kami">Agenda Kegiatan</a></li>
+                         <li><a class="dropdown-item" href="/galeri">Galeri</a></li>
                          
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
             <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                 <i class="fa fa-search"></i>
             </button>
-            <a href="https://htmlcodex.com/startup-company-website-template"
+            <a href=""
                 class="btn btn-primary py-2 px-4 ms-3">Kontak & Pengaduan</a>
         </div>
     </nav>

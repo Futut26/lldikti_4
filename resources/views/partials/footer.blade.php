@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0">Links</h3>
+                            <h3 class="text-light mb-0">Link</h3>
                         </div>
                        
                        
