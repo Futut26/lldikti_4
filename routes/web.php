@@ -21,6 +21,8 @@ use App\Http\Controllers\Peraturan_PmerintahController;
 use App\Http\Controllers\Peraturan_RistekdiktiController;
 use App\Http\Controllers\PPIDController;
 use App\Http\Controllers\ProsedurOperasionalStandarController;
+use App\Http\Controllers\PetaProsesBisnisController;
+use App\Http\Controllers\BukuPanduanPedomanController;
 
 
 /*
@@ -75,3 +77,7 @@ Route::get('/spp', [SppController::class, 'index']);
 Route::get('/PPID', [PPIDController::class, 'index']);
 
 Route::get('/prosedurOperasionalStandar', [ProsedurOperasionalStandarController::class, 'index']);
+
+Route::get('/petaProsesBisnis', [PetaProsesBisnisController::class, 'index']);
+
+Route::get('/bukuPanduanPedoman', [BukuPanduanPedomanController::class, 'index']);

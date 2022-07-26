@@ -50,8 +50,8 @@
                         </li>
                         <li><a class="dropdown-item" href="/PPID">PPID</a></li>
                         <li><a class="dropdown-item" href="/prosedurOperasionalStandar">Prosedur Operasional Standar</a></li>
-                        <li><a class="dropdown-item" href="#">Peta Proses Bisnis LLDIKTI Wilayah IV</a></li>
-                        <li><a class="dropdown-item" href="#">Buku Panduan / Pedoman</a></li>
+                        <li><a class="dropdown-item" href="/petaProsesBisnis">Peta Proses Bisnis LLDIKTI Wilayah IV</a></li>
+                        <li><a class="dropdown-item" href="/bukuPanduanPedoman">Buku Panduan / Pedoman</a></li>
                         <li><a class="dropdown-item" href="#">Materi Kegiatan</a></li>
                         <li><a class="dropdown-item" href="#">Buletin LLDIKTI Wilayah IV</a></li>
                         <li><a class="dropdown-item" href="#">Buku Direktori PTS LLDIKTI IV</a></li>
