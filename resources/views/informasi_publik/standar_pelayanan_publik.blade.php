@@ -46,16 +46,17 @@
                     </p>
                 </div>
                 <div class="col-lg-10 m-auto display-block">
-                    <iframe  src="pdf\2a.-SK-Standar-Pelayanan-Publik-Lampiran-Final-2.pdf" frameborder="3"  width="700" height="1000"></iframe>
+         
+                    <div id="addpdf-responsive" class="custom1">
+                        <div class="custom2">
+                           <iframe src="pdf\2a.-SK-Standar-Pelayanan-Publik-Lampiran-Final-2.pdf"></iframe>
+                        </div>
+                      </div>
+                       
                 </div>
             </div>
         </div>
     </div>
 @endsection
 
-<style>
-    iframe {
-    margin:auto;
-    display:block;
-}
-</style>
+
