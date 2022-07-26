@@ -18,6 +18,8 @@ use App\Http\Controllers\Peraturan_MenteriController;
 use App\Http\Controllers\Peraturan_PresidenController;
 use App\Http\Controllers\Peraturan_PmerintahController;
 use App\Http\Controllers\Peraturan_RistekdiktiController;
+use App\Http\Controllers\PPIDController;
+use App\Http\Controllers\ProsedurOperasionalStandarController;
 
 
 /*
@@ -51,33 +53,22 @@ Route::get('/layananKami', [LayananKamiController::class, 'index']);
 
 Route::get('/caraPengajuanLayanan', [PengajuanLayananController::class, 'index']);
 
-Route::get('/produkHukum',[ProdukHukumController::class, 'index']);
+Route::get('/produkHukum', [ProdukHukumController::class, 'index']);
 
-Route::get('/suratEdaran',[SuratEdaranController::class, 'index']);
+Route::get('/suratEdaran', [SuratEdaranController::class, 'index']);
 
-Route::get('/undang_undang',[Undang_undangController::class, 'index']);
+Route::get('/undang_undang', [Undang_undangController::class, 'index']);
 
-Route::get('/peraturan_ristekdikti',[Peraturan_RistekdiktiController::class, 'index']);
+Route::get('/peraturan_ristekdikti', [Peraturan_RistekdiktiController::class, 'index']);
 
-Route::get('/peraturan_presiden',[Peraturan_PresidenController::class, 'index']);
+Route::get('/peraturan_presiden', [Peraturan_PresidenController::class, 'index']);
 
-Route::get('/peraturan_menteri',[Peraturan_MenteriController::class, 'index']);
+Route::get('/peraturan_menteri', [Peraturan_MenteriController::class, 'index']);
 
-Route::get('/peraturan_pemerintah',[Peraturan_PmerintahController::class, 'index']);
+Route::get('/peraturan_pemerintah', [Peraturan_PmerintahController::class, 'index']);
 
-Route::get('/sk_dirjen',[Sk_DirjenController::class, 'index']);
+Route::get('/sk_dirjen', [Sk_DirjenController::class, 'index']);
 
+Route::get('/PPID', [PPIDController::class, 'index']);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Route::get('/prosedurOperasionalStandar', [ProsedurOperasionalStandarController::class, 'index']);
