@@ -34,7 +34,7 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-bs-toggle="dropdown" aria-expanded="false"> Infomasi Publik </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Standar Pelayanan Publik</a></li>
+                        <li><a class="dropdown-item" href="/spp">Standar Pelayanan Publik</a></li>
                         <li class="dropdown dropend">
                             <a class="dropdown-item dropdown-toggle" href="/produkHukum" id="multilevelDropdownMenu1"
                                 data-bs-toggle="" aria-haspopup="false" aria-expanded="false">Produk Hukum</a>

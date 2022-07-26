@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SppController;
 use App\Http\Controllers\InfoController;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\ProfilController;
@@ -68,6 +69,8 @@ Route::get('/peraturan_menteri', [Peraturan_MenteriController::class, 'index']);
 Route::get('/peraturan_pemerintah', [Peraturan_PmerintahController::class, 'index']);
 
 Route::get('/sk_dirjen', [Sk_DirjenController::class, 'index']);
+
+Route::get('/spp', [SppController::class, 'index']);
 
 Route::get('/PPID', [PPIDController::class, 'index']);
 
