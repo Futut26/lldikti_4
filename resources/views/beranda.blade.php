@@ -9,7 +9,7 @@
                         <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
                             Wilayah 4
                         </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
+                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
                             Selengkapnya</a>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                         <h6 class="display-1 text-white mb-md-4 animated zoomIn">Lembaga Layanan Pendidikan Tinggi
                             Wilayah 4
                         </h6>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
+                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated zoomIn">Baca
                             Selengkapnya</a>
                     </div>
                 </div>
@@ -37,6 +37,7 @@
         </button>
     </div>
     </div>
+
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
         <div class="modal-dialog modal-fullscreen">
@@ -57,45 +58,56 @@
     </div>
     <!-- Full Screen Search End -->
 
-
-
-    <!-- About Start -->
+    <!-- welcome -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                    <div class="section-title position-relative pb-2 mb-5">
+                        <h2 class="mb-0">Selamat Datang di Lembaga Layanan Pendidikan Tinggi Wilayah 4</h2>
+                        <h3 class="mt-1 text-primary">Jawa Barat dan Banten</h3>
                     </div>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
-                        diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita
-                        duo justo et tempor eirmod magna dolore erat amet</p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                    <p class="mb-4">LLDIKTI mempunyai tugas membantu peningkatan mutu penyelenggaraan pendidikan
+                        <br>tinggi baik perguruan tinggi negeri maupun perguruan tinggi swasta di wilayah kerjanya.
+                    </p>
+                    <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <nav>
+                            <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                                <button class="nav-link text-uppercase active" id="nav-story-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
+                                    aria-selected="true">Visi</button>
+                                <button class="nav-link text-uppercase" id="nav-mission-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission"
+                                    aria-selected="false">Misi</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
+                                aria-labelledby="nav-story-tab">
+                                <div class="row g-3">
+                                    <div class="col-sm-9">
+                                        <h5 class="mb-3">Terwujudnya perguruan tinggi yang bermutu melebihi standar
+                                            nasional Pendidikan Tinggi</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+                                <div class="row g-3">
+                                    <div class="col-sm-9">
+                                        <h5 class="mb-3">Membantu penyelenggaraan pendidikan tinggi yang bermutu melalui
+                                            Bindalwas penatakelolaan, manajemen, organisasi dan kepemimpinan perguruan
+                                            tinggi</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
-                        </div>
-                    </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A
-                        Quote</a>
+                    <a href="#" class="btn btn-primary btn-sm py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Baca
+                        Selengkapnya</a>
                 </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="col-lg-5" style="min-height: 100px;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="img/ki-hajar.png" class="d-block w-100" alt="...">
@@ -104,7 +116,13 @@
                                 <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slide_4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide_5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide_6.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
@@ -112,154 +130,206 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Welcome End -->
+
+    <!-- Info Terbaru -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+                <h2 class="mb-0">Info Terbaru</h2>
+            </div>
+            <a href="/info" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+                Selengkapnya</a>
+            <div class="row g-5">
+                @foreach ($infos as $info)
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="blog-item bg-light shadow overflow-hidden h-100">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/blog.jpg" alt="">
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                    href="">Info</a>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+                                    <small><i
+                                            class="far fa-calendar-alt text-primary me-2"></i>{{ date('d F Y', strtotime($info->published_at)) }}</small>
+                                </div>
+                                <p>{{ $info->title }}</p>
+                                <a class="text-uppercase" href="/infoPage/{{ $info->slug }}">Baca Selengkapnya <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+    <!-- Info Terbaru End-->
 
 
-    <!-- Features Start -->
+    <!-- Service Online Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>
-                <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+                <h2 class="mb-0">Layanan Online</h2>
             </div>
+            <a href="/layananOnline" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat
+                Selengkapnya</a>
             <div class="row g-5">
-                <div class="col-lg-4">
-                    <div class="row g-5">
-                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-cubes text-white"></i>
-                            </div>
-                            <h4>Best In Industry</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                        </div>
-                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-award text-white"></i>
-                            </div>
-                            <h4>Award Winning</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                        </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.3s">
+                    <div
+                        class="service-item bg-silver  rounded d-flex flex-column shadow align-items-center justify-content-center text-center">
+                        <img width="100" src="img/icons8-document.gif" alt="">
+                        <h4 class="mb-3 mt-3">SPTJM online</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
-                            src="img/feature.jpg" style="object-fit: cover;">
+                <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-silver  shadow rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img width="100" src="img/icons8-literature.gif" alt="">
+                        <h4 class="mb-3 mt-3">Digilibrary</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="row g-5">
-                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-users-cog text-white"></i>
-                            </div>
-                            <h4>Professional Staff</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                        </div>
-                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-phone-alt text-white"></i>
-                            </div>
-                            <h4>24/7 Support</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
-                        </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-silver  shadow rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img width="100" src="img/icons8-bookmark2.gif" alt="">
+                        <h4 class="mb-3 mt-3">Jurnal LLDIKTI</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow zoomIn " data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-silver  shadow rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img width="100" src="img/icons8-bookmark.gif" alt="">
+                        <h4 class="mb-3 mt-3">Buletin LLDIKTI</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Features Start -->
-
+    <!-- Service online End -->
 
     <!-- Service Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+                <h2 class="mb-0">Layanan Kami</h2>
             </div>
+            <a href="/layananKami" class="btn btn-primary py-md-3 px-md-5 me-3 mb-3 animated zoomIn">Lihat
+                Selengkapnya</a>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-shield-alt text-white"></i>
+                            <i class="fas fa-award text-white"></i>
                         </div>
-                        <h4 class="mb-3">Cyber Security</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        <h6 class="m-0">Pelayanan Validasi Ijazah Bagi PTS yang Sudah Tidak Beroperasi atau Tutup</h6>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-chart-pie text-white"></i>
+                            <i class="fas fa-graduation-cap text-white"></i>
                         </div>
-                        <h4 class="mb-3">Data Analytics</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        <h6 class="m-0">Standar Pelayanan Mutasi Mahasiswa</h6>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-code text-white"></i>
+                            <i class="fas fa-percent text-white"></i>
                         </div>
-                        <h4 class="mb-3">Web Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        <h6 class="m-0">Pelayanan Penilaian Angka Kredit Jabatan Akademik Dosen Asisten Ahli dan Lektor
+                        </h6>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fab fa-android text-white"></i>
+                            <i class="fas fa-chalkboard-teacher text-white"></i>
                         </div>
-                        <h4 class="mb-3">Apps Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        <h6 class="m-0">Pelayanan Rekomendasi Usulan Jabatan Akademik Dosen Lektor Kepala dan Profesor
+                        </h6>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
+                            <i class="fas fa-university text-white"></i>
                         </div>
-                        <h4 class="mb-3">SEO Optimization</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        <h6 class="mb-0">Pelayanan Rekomendasi Perubahan Nama Badan Penyelenggara Perguruan Tinggi Swasta
+                        </h6>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
-                        class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                        <h3 class="text-white mb-3">Call Us For Quote</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna
-                            stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-share-square text-white"></i>
+                        </div>
+                        <h6 class="mb-0">Pelayanan Rekomendasi Alih Kelola Perguruan Tinggi Swasta</h6>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-building text-white"></i>
+                        </div>
+                        <h6 class="mb-0">
+                            Pelayanan Rekomendasi Pendirian Perguruan Tinggi Swasta Baru</h6>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-newspaper text-white"></i>
+                        </div>
+                        <h6 class="mb-0">
+                            Rekomendasi Pembukaan Program Studi Baru PTS</h6>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -267,178 +337,131 @@
     </div>
     <!-- Service End -->
 
-
-
-
-    <!-- Pricing Plan Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Pricing Plans</h5>
-                <h1 class="mb-0">We are Offering Competitive Prices for Our Clients</h1>
+    <!-- Info Terbaru -->
+    <div class="container py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+                <h2 class="mb-0">Berita Kami</h2>
             </div>
-            <div class="row g-0">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Basic Plan</h4>
-                            <small class="text-uppercase">For Small Size Business</small>
+            <a href="" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+                Selengkapnya</a>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light shadow overflow-hidden h-100">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                href="">Berita</a>
                         </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                    class="fa fa-times text-danger pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                    class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>30 June 2022 </small>
+                            </div>
+                            <p>SOSIALISASI PELAPORAN AKADEMIK MELALUI APLIKASI NEO FEEDER</p>
+                            <a class="text-uppercase" href="">Baca Selengkapnya <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Standard Plan</h4>
-                            <small class="text-uppercase">For Medium Size Business</small>
+                    <div class="blog-item bg-light shadow overflow-hidden h-100 ">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                href="">Berita</a>
                         </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                    class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>30 June 2022</small>
+                            </div>
+                            <p>Pendampingan JAD Untuk Penilai JAD Internal dan Operator JAD Perguruan Tinggi</p>
+                            <a class="text-uppercase" href="">Baca Selengkapnya <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="text-primary mb-1">Advanced Plan</h4>
-                            <small class="text-uppercase">For Large Size Business</small>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light shadow overflow-hidden h-100 ">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/blog.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                href="">Bertia</a>
                         </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i
-                                    class="fa fa-check text-primary pt-1"></i></div>
-                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>22 June 2022</small>
+                            </div>
+                            <p>Sosialisasi Jaminan Sosial Ketenagakerjaan Sesi 1</p>
+                            <a class="text-uppercase" href="">Baca Selengkapnya <i
+                                    class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Pricing Plan End -->
+    <!-- Info Terbaru End-->
 
 
-    <!-- Quote Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <!-- Service Start -->
+    <div class="container-fluid py-3  wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-5">
             <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
-                    </div>
-                    <div class="row gx-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support
-                            </h5>
-                        </div>
-                    </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et
-                        dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et
-                        dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus
-                        sed et. Takimata takimata sanctus sed.</p>
-                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                            style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name"
-                                        style="height: 55px;">
+                <div class="col-lg-12 px-0 wow zoomIn" data-wow-delay="0.3s">
+                    <div
+                        class="service px-0 h-auto bg-light rounded d-flex flex-column align-items-center justify-content-center ">
+                        <div class="container py-1">
+                            <div class="row g-5 align-items-center justify-content-center ">
+                                <div class="col-lg-4">
+                                    <div class="section-title position-relative pb-2 mb-5">
+                                        <h3 class="mt-1 text-primary">Layanan LLDIKTI</h3>
+                                        <h2 class="mb-0">Butuh Bantuan ?</h2>
+                                    </div>
+                                    <p class="mb-4">
+                                        Layanan LLDIKTI siap membantu anda
+                                    </p>
+                                    <a href="#" class="btn btn-primary btn-sm py-2 px-5 mt-3 wow zoomIn"
+                                        data-wow-delay="0.9s">Kontak Kami</a>
                                 </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                <div class="col-lg-5" style="min-height: 100px;">
+                                    <div class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/beranda/kontak.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Quote End -->
-
-    <!-- Facts Start -->
-    <div class="container-fluid facts mt-3 py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+    
+    <div class="container  py-5 ">
+        <div class="container py-5 ">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h2 class="mb-0">Sebaran Perguruan Tinggi</h2>
+                
+            </div>
+            <div class="row g-2 justify-content-center align-items-lg-center">
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
                         style="height: 150px;">
                         <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
                             style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-primary"></i>
+                            <i class="fa fa-university text-primary"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white mb-0">Happy Clients</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white mb-0">Universitas</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">98</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
                     <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
                         style="height: 150px;">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
@@ -446,36 +469,267 @@
                             <i class="fa fa-check text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Projects Done</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-primary mb-0">Institut</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">19</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
                         style="height: 150px;">
                         <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
                             style="width: 60px; height: 60px;">
-                            <i class="fa fa-award text-primary"></i>
+                            <i class="fa fa-graduation-cap"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white mb-0">Win Awards</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white mb-0">Sekolah Tinggi</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">202</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-university text-white""></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Akademi</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">84</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <text-primary class="fa fa-graduation-cap text-primary"></fa-solid>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Politeknik</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">41</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Akademi Komunitas</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">5</h1>
+                        </div>
+                    </div>
+                </div>
+            
+ 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 ">
+        <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+            <h2 class="mb-0">Gallery Kami</h2>
+        </div>
+        <a href="#" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn" data-wow-delay="0.9s">Lihat
+            Selengkapnya</a>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-1.jpg">
+                        <img src="img/beranda/gallery/tumnail-1.jpg" alt="tumnail-1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-2.jpg">
+                        <img src="img/beranda/gallery/tumnail-2.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-3.jpg">
+                        <img src="img/beranda/gallery/tumnail-3.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-4.jpg">
+                        <img src="img/beranda/gallery/tumnail-4.jpg" alt="Coast">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/beranda/gallery/tumnail-5.jpg">
+                        <img src="img/beranda/gallery/tumnail-5.jpg" alt="Rails">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" style="max-width: 80%;" href="img/beranda/gallery/tumnail-6.jpg">
+                        <img src="img/beranda/gallery/tumnail-6.jpg" alt="Traffic">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 ">
+        <div class="section-title position-relative pb-3 mb-3" style="max-width: 600px;">
+            <h2 class="mb-0">Video Kami</h2>
+        </div>
+        <a href="https://www.youtube.com/c/LLDIKTIWILAYAH4/featured" class="btn btn-primary  py-3 px-5 mb-4 wow zoomIn"
+            data-wow-delay="0.9s">Lihat
+            Selengkapnya</a>
+        <div class="container-4">
+            <div class="main-video-container">
+                <iframe src="https://www.youtube.com/embed/3palWyc5vN0" allow="autoplay" loop controls
+                    class="main-video"></iframe>
+            </div>
+
+            <div class="video-list-container">
+
+                <div class="list active">
+                    <iframe src="https://www.youtube.com/embed/3palWyc5vN0" class="list-video"></iframe>
+                    <h3 class="list-title">Sambutan Dirjen DIKTI Rakerda LLDIKTI IV</h3>
+                </div>
+
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/yT9C6nsfLiI" class="list-video"></iframe>
+                    <h3 class="list-title">INGAT SELALU PESAN IBU! 3M...</h3>
+                </div>
+
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/E0k22bCm_dU" class="list-video"></iframe>
+                    <h3 class="list-title">Pemberian Piagam PTS 100 Rakerda 2019 LLDIKTI IV</h3>
+                </div>
+
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/Dif4eqvMeoY" class="list-video"></iframe>
+                    <h3 class="list-title">proyek perubahan PKN II Angkatan XV Sekretaris LLDIKTI wilayah IV</h3>
+                </div>
+
+                <div class="list">
+                    <iframe src="https://www.youtube.com/embed/iiPKDD5vD-Y" class="list-video"></iframe>
+                    <h3 class="list-title">TOT - Pendidikan Anti Korupsi</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+            <h1 class="mb-0">FAQ</h1>
+            <h5 class="fw-bold text-primary">Daftar Pertanyaan dan Jawaban yana Sering Ditanyakan</h5>
+        </div>
+        <div class="border rounded p-4">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Apa itu LLDIKTI ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Secara struktural LLDIKTI Wilayah IV Jawa Barat dan Banten merupakan unit
+                            pelaksana teknis Direktorat Jenderal Pendidikan Tinggi yang melaksanakan tugas Pembinaan,
+                            Pengendalian, dan Pengawasan (BINDALWAS) kepada PTS berdasarkan Peraturan Menteri Pendidikan
+                            dan Kebudayaan RI Nomor 1 Tahun 2013 tentang Organisasi dan Tata Kerja Koordinasi Perguruan
+                            Tinggi
+                            Swasta, dan saat ini berubah bentuk menjadi Lembaga Layanan Pendidikan Tinggi (LLDIKTI)
+                            berdasarkan
+                            Pemenristekdikti no.15 tahun 2018. LLDIKTI berfungsi membantu meningkatkan mutu penyelenggaraan
+                            Pendidikan Tinggi.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Layanan Yang Kami Sediakan
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li> Pelayanan Mutasi Mahasiswa </li>
+                                <li> Pelayanan Penilaian Angka Kredit Jabatan Akademik Dosen Asisten Ahli dan Lektor</li>
+                                <li> Pelayanan Rekomendasi Usulan Jabatan Akademik Dosen Lektor Kepala dan Profesor</li>
+                                <li> Pelayanan Pemberian Rekomendasi Beasiswa Dosen</li>
+                                <li> Pelayanan Rekomendasi Alih Kelola Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Rekomendasi Pendirian Perguruan Tinggi Swasta Baru</li>
+                                <li> Pelayanan Rekomendasi Pembukaan Program Studi Baru PTS</li>
+                                <li> Pelayanan Rekomendasi Perubahan Bentuk Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Rekomendasi Pembukaan Program Studi Luar Kampus Utama</li>
+                                <li> Pelayanan Rekomendasi Perubahan Lokasi Kampus Utama Perguruan Tinggi</li>
+                                <li> Pelayanan Rekomendasi Penggabungan / Penyatuan PTS</li>
+                                <li> Pelayanan Rekomendasi pencabutan izin Program Studi / PTS</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Perguruan Tinggi</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Program Studi</li>
+                                <li> Pelayanan Rekomendasi Perubahan Nama Badan Penyelenggara Perguruan Tinggi Swasta</li>
+                                <li> Pelayanan Publikasi Informasi</li>
+                                <li> Pelayanan Pengaduan Pelayanan Publik</li>
+                                <li> Pelayanan Data dan Informasi</li>
+                                <li> Pelayanan Penerbitan Surat Pengantar Migrasi Data PT/Prodi pada PDDIKTI</li>
+                                <li> Pelayanan Penerbitan Surat Pengantar Pendataan PT/Prodi pada PDDIKTI</li>
+                                <li> Pelayanan Penerbitan SK Penyetaraan Pangkat (Inpassing) Dosen Bukan Pegawai Negeri
+                                    Sipil Untuk Golongan III</li>
+                                <li> Pelayanan Surat Usulan Penerbitan SK Penyetaraan Pangkat (Inpassing) Dosen Bukan
+                                    Pegawai Negeri Sipil Untuk Golongan IV</li>
+                                <li> Pelayanan Alih Jabatan/Tugas Pegawai Negeri Sipil Non Dosen Menjadi Dosen</li>
+                                <li> Pelayanan Mutasi Dosen Pegawai Negeri Sipil Dari PTN atau PTS di Luar LLDIKTI Wilayah
+                                    IV ke LLDIKTI Wilayah IV</li>
+                                <li> Pelayanan Surat Usulan Penerbitan SK Tugas Belajar Dosen Pegawai Negeri Sipil Dpk.</li>
+                                <li> Pelayanan Pembuatan SK Ijin Belajar Dosen Pegawai Negeri Sipil Dpk.</li>
+                                <li> Pelayanan Pembuatan Surat Usulan SK Kenaikan Pangkat/Golongan Dosen Pegawai Negeri
+                                    Sipil Dpk</li>
+                                <li> Pelayanan Kenaikan Pangkat/Golongan Dosen Tetap Yayasan Golongan III</li>
+                                <li> Pelayanan Kenaikan Pangkat/Golongan Dosen Tetap Yayasan Golongan IV</li>
+                                <li> Pelayanan Penerbitan Surat Rekomendasi Perpindahan Dosen Bukan Pegawai Negeri Sipil
+                                </li>
+                                <li> Pelayanan Verifikasi Ijazah bagi PTS yang Sudah Tidak Beroperasi atau Tutup</li>
+                                <li> Pelayanan Validasi Ijazah bagi PTS</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Butuh Bantuan Kami ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Silahkan klik link dibawah ini: <br>
+                            <a href="https://www.lldikti4.id/kontak/">https://www.lldikti4.id/kontak/ </a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Facts Start -->
+
 
 
     <!-- Testimonial Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+                <h3 class="fw-bold text-uppercase">Testimonial</h3>
+                
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
@@ -490,210 +744,45 @@
                         Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+
+                <div class="testimonial-item bg-light my-4 h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/asep.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1">
+                                Asep Rohmandarjuara</h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Semoga makin memperbaiki kualitas pendidikan di wilayah IV khususnya dan Nasional umumnya
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+                <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1"> Fairlee surya</h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Pelayananya the Best ada loket Pelayananan Terpadunya,petugas loketnya.......dilayani sampai
+                        tuntas dan dicarikan solusinya...terimakasih LLDIKTI IV
                     </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
+                <div class="testimonial-item bg-light my-4  h-50">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;">
+                        <img class="img-fluid rounded" src="img/beranda/hendra.png" style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h4 class="text-primary mb-1"> Hendi Prawiraatmaja </h4>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Pelayanananya bagus responsip, terimakasih saya sangat terbantu sekali
                     </div>
                 </div>
             </div>
         </div>
+ 
     </div>
     <!-- Testimonial End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
-                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
-                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
-                                href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog Start -->
-
-
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5 mb-5">
-            <div class="bg-white">
-                <div class="owl-carousel vendor-carousel">
-                    <img src="img/vendor-1.jpg" alt="">
-                    <img src="img/vendor-2.jpg" alt="">
-                    <img src="img/vendor-3.jpg" alt="">
-                    <img src="img/vendor-4.jpg" alt="">
-                    <img src="img/vendor-5.jpg" alt="">
-                    <img src="img/vendor-6.jpg" alt="">
-                    <img src="img/vendor-7.jpg" alt="">
-                    <img src="img/vendor-8.jpg" alt="">
-                    <img src="img/vendor-9.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
 @endsection
