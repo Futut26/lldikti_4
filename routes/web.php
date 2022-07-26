@@ -22,7 +22,11 @@ use App\Http\Controllers\Peraturan_MenteriController;
 use App\Http\Controllers\Peraturan_PresidenController;
 use App\Http\Controllers\Peraturan_PmerintahController;
 use App\Http\Controllers\Peraturan_RistekdiktiController;
-
+use App\Http\Controllers\PPIDController;
+use App\Http\Controllers\ProsedurOperasionalStandarController;
+use App\Http\Controllers\PetaProsesBisnisController;
+use App\Http\Controllers\BukuPanduanPedomanController;
+use App\Http\Controllers\Materi_KegiatanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -61,30 +65,30 @@ Route::get('/suratEdaran',[SuratEdaranController::class, 'index']);
 
 Route::get('/undang_undang',[Undang_undangController::class, 'index']);
 
-Route::get('/peraturan_ristekdikti',[Peraturan_RistekdiktiController::class, 'index']);
-
-Route::get('/peraturan_presiden',[Peraturan_PresidenController::class, 'index']);
-
-Route::get('/peraturan_menteri',[Peraturan_MenteriController::class, 'index']);
-
-Route::get('/peraturan_pemerintah',[Peraturan_PmerintahController::class, 'index']);
-
-Route::get('/sk_dirjen',[Sk_DirjenController::class, 'index']);
-
-Route::get('/spp',[SppController::class, 'index']);
-
 Route::get('/galeri',[GaleriController::class, 'index']);
 
 Route::get('/agenda_kami',[Agenda_KamiController::class, 'index']);
 
 Route::get('/buletin',[BuletinController::class, 'index']);
 
+Route::get('/peraturan_ristekdikti', [Peraturan_RistekdiktiController::class, 'index']);
 
+Route::get('/peraturan_presiden', [Peraturan_PresidenController::class, 'index']);
 
+Route::get('/peraturan_menteri', [Peraturan_MenteriController::class, 'index']);
 
+Route::get('/peraturan_pemerintah', [Peraturan_PmerintahController::class, 'index']);
 
+Route::get('/sk_dirjen', [Sk_DirjenController::class, 'index']);
 
+Route::get('/spp', [SppController::class, 'index']);
 
+Route::get('/PPID', [PPIDController::class, 'index']);
 
+Route::get('/prosedurOperasionalStandar', [ProsedurOperasionalStandarController::class, 'index']);
 
+Route::get('/petaProsesBisnis', [PetaProsesBisnisController::class, 'index']);
 
+Route::get('/bukuPanduanPedoman', [BukuPanduanPedomanController::class, 'index']);
+
+Route::get('/materi_kegiatan',[Materi_KegiatanController::class, 'index']);
